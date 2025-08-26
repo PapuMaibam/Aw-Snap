@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aw, Snap!</title>
+  <style>
+    body {
+      background: #f1f3f4;
+      color: #202124;
+      font-family: Arial, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+    .error-box {
+      max-width: 400px;
+    }
+    .sad-tab {
+      font-size: 70px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+    p {
+      color: #5f6368;
+      margin-bottom: 20px;
+    }
+    button {
+      background: #1a73e8;
+      color: #fff;
+      border: none;
+      padding: 10px 18px;
+      border-radius: 6px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #1558b0;
+    }
+  </style>
+</head>
+<body>
+  <div class="error-box">
+    <div class="sad-tab">😵</div>
+    <h1>Aw, Snap!</h1>
+    <p>Something went wrong while displaying this webpage.</p>
+    <p>If you're seeing this frequently, try these <a href="suggestions">suggestions</a></p>
+    <button onclick="location.reload()">Reload</button>
+  </div>
+</body>
+</html>
